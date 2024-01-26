@@ -11,6 +11,8 @@
 		F15F00F42B63C03500622D5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F00F32B63C03500622D5E /* ContentView.swift */; };
 		F15F00F62B63C03600622D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15F00F52B63C03600622D5E /* Assets.xcassets */; };
 		F15F00F92B63C03600622D5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15F00F82B63C03600622D5E /* Preview Assets.xcassets */; };
+		F15F01062B63C10600622D5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F01052B63C10600622D5E /* LoginView.swift */; };
+		F15F01082B63C11900622D5E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F01072B63C11900622D5E /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F15F00F32B63C03500622D5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F15F00F52B63C03600622D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F15F00F82B63C03600622D5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F15F01052B63C10600622D5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F15F01072B63C11900622D5E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,11 @@
 		F15F00F02B63C03500622D5E /* SwiftChat */ = {
 			isa = PBXGroup;
 			children = (
+				F15F01012B63C0BF00622D5E /* Model */,
+				F15F01022B63C0C900622D5E /* ViewModel */,
+				F15F01002B63C09F00622D5E /* View */,
+				F15F01032B63C0CF00622D5E /* API */,
+				F15F00FF2B63C09300622D5E /* Utils */,
 				F15F00F12B63C03500622D5E /* SwiftChatApp.swift */,
 				F15F00F32B63C03500622D5E /* ContentView.swift */,
 				F15F00F52B63C03600622D5E /* Assets.xcassets */,
@@ -65,6 +74,51 @@
 				F15F00F82B63C03600622D5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F15F00FF2B63C09300622D5E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F15F01002B63C09F00622D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F15F01042B63C0EA00622D5E /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F15F01012B63C0BF00622D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F15F01022B63C0C900622D5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F15F01032B63C0CF00622D5E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F15F01042B63C0EA00622D5E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F15F01052B63C10600622D5E /* LoginView.swift */,
+				F15F01072B63C11900622D5E /* RegistrationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15F01062B63C10600622D5E /* LoginView.swift in Sources */,
 				F15F00F42B63C03500622D5E /* ContentView.swift in Sources */,
 				F15F00F22B63C03500622D5E /* SwiftChatApp.swift in Sources */,
+				F15F01082B63C11900622D5E /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
