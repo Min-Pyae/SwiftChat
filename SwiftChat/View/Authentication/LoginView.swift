@@ -80,7 +80,7 @@ struct LoginView: View {
                 }
             }
             .padding(.horizontal, 30)
-            .padding(.vertical, 10)
+            .padding(.top, 20)
         }
     }
 }
