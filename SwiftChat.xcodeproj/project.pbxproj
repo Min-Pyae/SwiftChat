@@ -14,6 +14,10 @@
 		F15F01062B63C10600622D5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F01052B63C10600622D5E /* LoginView.swift */; };
 		F15F01082B63C11900622D5E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F01072B63C11900622D5E /* RegistrationView.swift */; };
 		F15F010A2B63C1DA00622D5E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F01092B63C1DA00622D5E /* CustomTextField.swift */; };
+		F15F6D8E2B63D93500EF0FD1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D8D2B63D93500EF0FD1 /* MainView.swift */; };
+		F15F6D902B63DA3A00EF0FD1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */; };
+		F15F6D922B63DA4A00EF0FD1 /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D912B63DA4A00EF0FD1 /* ChannelsView.swift */; };
+		F15F6D942B63DA5400EF0FD1 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D932B63DA5400EF0FD1 /* ChatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		F15F01052B63C10600622D5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F15F01072B63C11900622D5E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		F15F01092B63C1DA00622D5E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F15F6D8D2B63D93500EF0FD1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F15F6D912B63DA4A00EF0FD1 /* ChannelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
+		F15F6D932B63DA5400EF0FD1 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 		F15F01002B63C09F00622D5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F15F6D8B2B63D91000EF0FD1 /* Chats */,
+				F15F6D8C2B63D91600EF0FD1 /* Channels */,
+				F15F6D8A2B63D90700EF0FD1 /* Settings */,
+				F15F6D892B63D8FC00EF0FD1 /* Main */,
 				F15F01042B63C0EA00622D5E /* Authentication */,
 			);
 			path = View;
@@ -122,6 +134,38 @@
 				F15F01072B63C11900622D5E /* RegistrationView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F15F6D892B63D8FC00EF0FD1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F15F6D8D2B63D93500EF0FD1 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F15F6D8A2B63D90700EF0FD1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F15F6D8B2B63D91000EF0FD1 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				F15F6D932B63DA5400EF0FD1 /* ChatsView.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		F15F6D8C2B63D91600EF0FD1 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				F15F6D912B63DA4A00EF0FD1 /* ChannelsView.swift */,
+			);
+			path = Channels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15F6D902B63DA3A00EF0FD1 /* SettingsView.swift in Sources */,
 				F15F01062B63C10600622D5E /* LoginView.swift in Sources */,
+				F15F6D8E2B63D93500EF0FD1 /* MainView.swift in Sources */,
 				F15F00F42B63C03500622D5E /* ContentView.swift in Sources */,
+				F15F6D922B63DA4A00EF0FD1 /* ChannelsView.swift in Sources */,
 				F15F00F22B63C03500622D5E /* SwiftChatApp.swift in Sources */,
+				F15F6D942B63DA5400EF0FD1 /* ChatsView.swift in Sources */,
 				F15F01082B63C11900622D5E /* RegistrationView.swift in Sources */,
 				F15F010A2B63C1DA00622D5E /* CustomTextField.swift in Sources */,
 			);
