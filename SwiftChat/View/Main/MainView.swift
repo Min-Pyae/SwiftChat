@@ -50,7 +50,7 @@ struct MainView: View {
                     }
                     .tag(3)
             }
-            .navigationTitle(title)
+            .navigationTitle(title )
         }
     }
     

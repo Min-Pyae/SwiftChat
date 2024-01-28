@@ -18,6 +18,8 @@
 		F15F6D902B63DA3A00EF0FD1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */; };
 		F15F6D922B63DA4A00EF0FD1 /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D912B63DA4A00EF0FD1 /* ChannelsView.swift */; };
 		F15F6D942B63DA5400EF0FD1 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F6D932B63DA5400EF0FD1 /* ChatsView.swift */; };
+		F178C4BC2B66D5720058BD5D /* SettingsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178C4BB2B66D5720058BD5D /* SettingsHeaderView.swift */; };
+		F178C4BE2B66D59D0058BD5D /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178C4BD2B66D59D0058BD5D /* SettingsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F15F6D912B63DA4A00EF0FD1 /* ChannelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
 		F15F6D932B63DA5400EF0FD1 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		F178C4BB2B66D5720058BD5D /* SettingsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHeaderView.swift; sourceTree = "<group>"; };
+		F178C4BD2B66D59D0058BD5D /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				F15F6D8F2B63DA3A00EF0FD1 /* SettingsView.swift */,
+				F178C4BB2B66D5720058BD5D /* SettingsHeaderView.swift */,
+				F178C4BD2B66D59D0058BD5D /* SettingsCell.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			files = (
 				F15F6D902B63DA3A00EF0FD1 /* SettingsView.swift in Sources */,
 				F15F01062B63C10600622D5E /* LoginView.swift in Sources */,
+				F178C4BC2B66D5720058BD5D /* SettingsHeaderView.swift in Sources */,
 				F15F6D8E2B63D93500EF0FD1 /* MainView.swift in Sources */,
 				F15F00F42B63C03500622D5E /* ContentView.swift in Sources */,
 				F15F6D922B63DA4A00EF0FD1 /* ChannelsView.swift in Sources */,
@@ -247,6 +254,7 @@
 				F15F6D942B63DA5400EF0FD1 /* ChatsView.swift in Sources */,
 				F15F01082B63C11900622D5E /* RegistrationView.swift in Sources */,
 				F15F010A2B63C1DA00622D5E /* CustomTextField.swift in Sources */,
+				F178C4BE2B66D59D0058BD5D /* SettingsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
